@@ -37,9 +37,9 @@ jobs:
     # 5️⃣ Push API image
     - name: Push API image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/loksai-mlops830api:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/salman-api:latest
 
     # 6️⃣ Push UI image
     - name: Push UI image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/loksai-mlops830ui:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/salman-ui:latest
