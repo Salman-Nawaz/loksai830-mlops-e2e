@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loksai-ui-deploy
+  name: salman-ui-deploy
 spec:
   replicas: 1
   selector:
@@ -21,7 +21,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: loksai-ui-svc
+  name: salman-ui-svc
 spec:
   type: NodePort
   selector:
