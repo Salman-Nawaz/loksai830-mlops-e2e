@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ui
-        image: salmannawaz/salman-ui
+        image: salmannawaz/salman-ui:latest
         ports:
         - containerPort: 8501
 ---
