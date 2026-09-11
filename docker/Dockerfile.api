@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir \
     fastapi \
     uvicorn \
-    scikit-learn \
+    scikit-learn==1.9.1 \
     joblib \
     boto3 \
     mlflow
