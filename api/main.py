@@ -8,7 +8,7 @@ import os
 # ---------------------------
 S3_BUCKET = "salman-nawaz-mlproject"
 S3_KEY = "latest/model.pkl"
-LOCAL_MODEL_PATH = "latest/model.pkl"
+LOCAL_MODEL_PATH = "models/model.pkl"
 # ---------------------------
 
 app = FastAPI()
