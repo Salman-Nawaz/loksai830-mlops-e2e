@@ -1,4 +1,3 @@
-```python
 import os
 import pandas as pd
 import joblib
@@ -151,4 +150,3 @@ print(
 )
 
 print("✅ Model trained, tracked with MLflow, and uploaded to S3")
-```
